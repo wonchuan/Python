@@ -4,7 +4,6 @@ w = input('输入你的体重:')
 height =float(h)
 weight =float(w)
 bmi= (weight/height) **2 *100
-print (bmi)
 if bmi < 18.5:
     print('你的BMI 指数:%.2f,过轻' %bmi)
 elif bmi >= 18.5:
